@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../style_figure.css">
+    <script type="text/javascript" src="../config.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS_CHTML"></script>
+
+<body>
+<header><h1 class="title big">物理学入門</h1></header>   
+<div class="foo">
+    <input id=menu type="checkbox" />
+    <label for="menu" class="open">≡MENU</label>
+    <label for="menu" class="back"></label>
+    <main>
+        <br>
+        <div class="box">
+            このページでは，「仕事」を定義して，実際にいくつかの例で計算をしてみます。
+        </div>
+    <article class="note">
+    
+    <h2>仕事の定義</h2>
+    <div>
+    微小量をいきなり定義するのはやっぱりまずかろう？
+    楽だが，Fが一定であることは言っておかないといけないし，この曲線上にかくのはよくない。
+    \[\Delta W=F \Delta s \cos{\theta} \]
+    内積を用いれば，
+    \[\Delta W=\overrightarrow{F}\cdot \Delta \overrightarrow{r}\]
+    と表される。図のように，力\(F\)により質点が曲線上を点Aから点Bまで移動したとき，\(F\)がする仕事は，微小変位\(\Delta r\)の間の仕事を足し上げて，次のように定義されます。
+    \[W_{AB}=\lim_{n \to \infty}{\sum^{n}_{i=1}\Delta W_i} \]
+    </div>
+        
+    <h2>レポート課題</h2>               
+    <div>例題5.1</div>
+    <div class="question">
+        力の場 \(\bm{F}=(y-x^2)\bm{i}+(z-y^2)\bm{j}+(x-z^2)\bm{k}\) が与えらえれている．物体を点\((0,0,0)\)から点\((1,1,1)\)まで \(r(t)=t\bm{i}+t^2\bm{j}+t^3\bm{k}(0\le t\le 1)\) に沿って移動させたとき，力 \(F\) が物体にした仕事を求めよ．
+    </div>
+    </article>
+    </main>
+</div>
+</body>
+</html>
